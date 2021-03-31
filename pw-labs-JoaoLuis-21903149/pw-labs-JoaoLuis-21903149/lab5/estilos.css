@@ -1,0 +1,61 @@
+nav{
+  background-color: khaki;
+}
+
+body{
+  background-color:rgb(114, 168, 219);
+}
+table{
+  background-color: white;
+}
+
+thead{
+  background-color: grey;
+}
+tr{
+  text-align: center;
+}
+form{
+  background-color: mistyrose;
+  border-radius: 1%;
+}
+footer{
+  background-color: palegreen;
+}
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+nav:hover{
+  background-color: plum;
+}
+pre{
+    background-color: salmon;
+}
+.fotos{
+  animation-name: fotos;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes fotos{
+  from{background-color: aqua;}
+  to{background: blue;}
+}
+.Forest{
+  filter:grayscale(70%);
+}
+.Forest1{
+  filter:hue-rotate(70deg);
+}
+.foto1{
+  filter:grayscale(100%);
+}
+.foto2{
+  filter:hue-rotate(40deg);
+}
+.pic1{
+  filter:grayscale(80%);
+}
+.pic2{
+  filter:hue-rotate(100deg);
+}
